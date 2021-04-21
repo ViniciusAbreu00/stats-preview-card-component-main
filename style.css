@@ -1,8 +1,85 @@
-*{box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{box-sizing: border-box; }
+
 .attribution { 
     font-size: 11px; 
     text-align: center;
     position: absolute;
-    bottom: ; 
+    bottom: 0;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    display: flex;
+    justify-content: center;
+    
+    background: hsl(233, 47%, 7%);
+    
+    height: 100vh;
+}
+
+.card-txt {
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: hsl(244, 38%, 16%);
+    padding: 70px;
+    width: 500px;
+    height: 450px;
+    margin-bottom: 5px;
+    
+}
+
+.card-header h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-header p {
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+
+
+
+.card-info {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 10% ;
+}
+.card-info h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+
+}
+.card-info p {
+    font-family: 'Inter', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin: auto;
+
+}
+
+.card-image {
+   
+    
+}
+
